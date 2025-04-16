@@ -33,5 +33,5 @@ function sendMessage($telegram_id, $message, $id_bot) {
 }
 
 sendMessage($telegram_id, $message, $id_bot);
-header('Location:../proses.html');
+header('Location:proses.html');
 ?>
